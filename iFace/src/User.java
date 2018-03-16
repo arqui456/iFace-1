@@ -19,13 +19,13 @@ public class User {
 	
 	public User() {
 		System.out.print("Your name: ");
-		this.name = input.next();
+		this.name = input.nextLine();
 		
 		System.out.print("New login: ");
-		this.login = input.next();
+		this.login = input.nextLine();
 		
 		System.out.print("New password: ");
-		this.password = input.next();
+		this.password = input.nextLine();
 		
 		System.out.print("Your age: ");
 		this.age = input.nextInt();

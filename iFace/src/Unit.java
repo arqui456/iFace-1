@@ -12,9 +12,9 @@ public class Unit {
 	
 	public static void login() {
 		System.out.print("Login: ");
-		String login = input.next();
+		String login = input.nextLine();
 		System.out.print("Password: ");
-		String password = input.next();
+		String password = input.nextLine();
 		
 		boolean foundUser=false;
 		User userCurrent = null;
